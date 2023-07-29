@@ -1,0 +1,28 @@
+
+###
+
+GET http://localhost/backend/
+
+###
+
+POST https://localhost/backend/
+content-type: application/json
+
+{
+  "id" : 2,
+  "content": "content test"
+}
+
+###
+
+POST https://localhost/backend/
+content-type: application/json
+
+{
+  "id" : 0,
+  "content": "content test new"
+}
+
+###
+
+GET http://localhost/backend/?delete=3
