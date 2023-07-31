@@ -1,3 +1,60 @@
+.send{
+  display: flex;
+  padding: 10px;
+  border: 1px solid gray;
+  align-items: center;
+  margin: 5px auto;
+  width: 29.5%;
+  justify-content: space-between;
+}
+.note-textarea{
+  background-color: rgb(232, 238, 238);
+  border: none;
+  height: 100px;
+}
+.new-note-label{
+  margin-top: 20px;
+}
+.container{
+  width: 900px;
+}
+.posts-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.post{
+  display: flex;
+  padding: 10px;
+  border: 1px solid gray;
+  align-items: center;
+  margin: 5px;
+  width: 29.5%;
+  justify-content: space-between;
+}
+.post-delete{
+  border-radius: 36px;
+  padding: 0;
+  margin-left: 20px;
+  height: 38px;
+}
+.post-delete img{
+  width: 36px;
+  height: 36px;
+}
+.exchange{
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+}
+.btn img{
+  width: 36px;
+  height: 36px;
+}
+.btn{
+  border-radius: 36px;
+  padding: 6px 10px 4px;
+  margin-left: 20px;
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
